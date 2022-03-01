@@ -17,7 +17,9 @@ git update-git-for-windows
  git config --global init.defaultBranch main
 cd ~
 mkdir
-cd
+$ cd projects/my-project
+$ git init
+
 git clone ....
 cd ...
 git remote –v
@@ -26,6 +28,7 @@ git status
 git add ...
 git status
 git commit -m "...."
+$ git remote add origin https://github.com/ndindiri/theodinpractices.git
 git log
 “q”
 code .
